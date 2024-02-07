@@ -1,0 +1,18 @@
+.marcas{
+    width: 100%;
+    height: 64px;
+    padding: 0 6%;
+}
+
+.img-marcas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.img-marcas img{
+    width: 260px;
+    height: 100%;
+}
