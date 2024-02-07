@@ -1,0 +1,36 @@
+.menu-desk{
+    height: 48px;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.menu-desk ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin: 0 17%;
+}
+
+.menu-desk ul:first-child li{
+    height: 21px;
+    display: flex;
+    align-items: center;
+}
+.menu-desk ul li:first-child a{
+    color: #faa500;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.menu-desk ul li{
+    list-style: none;
+}
+.menu-desk ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353535;
+}
