@@ -8,6 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Fullbanner from './components/fullBanner/FullBanner';
+import MiniTitulo from './components/miniTitulo/MiniTitulo';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <>
       <Header/>
       <Fullbanner/>
+      <MiniTitulo texto="Por que comprar na Maeztra?"/>
       <h1>maeztra</h1>
     </>
   )
