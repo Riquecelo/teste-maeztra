@@ -12,6 +12,7 @@ import MiniTitulo from './components/miniTitulo/MiniTitulo';
 import TipBar from './components/tipBar/TipBar';
 import Titulo from './components/titulo/Titulo';
 import Marcas from './components/marcas/Marcas';
+import Vitrine from './components/vitrine/Vitrine';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <TipBar/>
       <Titulo texto="Marcas Parceiras"/>
       <Marcas/>
+      <Vitrine/>
       <h1>maeztra</h1>
     </>
   )
