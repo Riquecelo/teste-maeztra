@@ -7,7 +7,8 @@ import 'swiper/css';
 
 function Vitrine(){
     return(
-        <Swiper
+        <div id="vitrine">
+            <Swiper
             spaceBetween={25}
             slidesPerView={4}
             navigation
@@ -362,6 +363,8 @@ function Vitrine(){
                 </div>
             </SwiperSlide>
         </Swiper>
+        </div>
+        
     )
 }
 
