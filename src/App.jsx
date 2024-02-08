@@ -13,6 +13,7 @@ import TipBar from './components/tipBar/TipBar';
 import Titulo from './components/titulo/Titulo';
 import Marcas from './components/marcas/Marcas';
 import Vitrine from './components/vitrine/Vitrine';
+import Banner from './components/banner/Banner';
 
 
 function App() {
@@ -25,7 +26,9 @@ function App() {
       <TipBar/>
       <Titulo texto="Marcas Parceiras"/>
       <Marcas/>
+      <Titulo texto="As Mais Pedidas"/>
       <Vitrine/>
+      <Banner />
       <h1>maeztra</h1>
     </>
   )
