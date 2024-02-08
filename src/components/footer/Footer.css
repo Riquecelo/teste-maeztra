@@ -1,0 +1,59 @@
+footer{
+    width: 100%;
+    height: 376px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: center;
+    gap: 290px;
+}
+
+.footer-list ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.footer-list ul li:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #353535;
+}
+
+.footer-icons{
+    width: 100%;
+    height: 85px;
+    background-color: #353535;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-icons .social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-icons .logos,
+.footer-icons .cartao{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons .logos div p{
+    font-family: Open Sans, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13.62px;
+    color: #fff;
+    margin-bottom: 5px;
+}

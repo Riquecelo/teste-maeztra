@@ -15,7 +15,7 @@ import Marcas from './components/marcas/Marcas';
 import Vitrine from './components/vitrine/Vitrine';
 import Banner from './components/banner/Banner';
 import Newsletter from './components/newsletter/Newsletter';
-
+import Footer from './components/footer/Footer';
 
 function App() {
 
@@ -31,6 +31,7 @@ function App() {
       <Vitrine/>
       <Banner />
       <Newsletter/>
+      <Footer/>
     </>
   )
 }
