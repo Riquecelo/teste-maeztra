@@ -32,6 +32,29 @@ function Footer(){
                     <li>Endereço</li>
                 </ul>
             </div>
+            <div className="footer-mobi">
+                <details>
+                    <summary>Informações</summary>
+                    <p>Quem Somos</p>
+                    <p>Prazo de Envio</p>
+                    <p>Trocas e Devoluções</p>
+                    <p>Promoções e Cupons</p>
+                </details>
+                <details>
+                    <summary>Informações</summary>
+                    <p>Quem Somos</p>
+                    <p>Prazo de Envio</p>
+                    <p>Trocas e Devoluções</p>
+                    <p>Promoções e Cupons</p>
+                </details>
+                <details>
+                    <summary>Informações</summary>
+                    <p>Quem Somos</p>
+                    <p>Prazo de Envio</p>
+                    <p>Trocas e Devoluções</p>
+                    <p>Promoções e Cupons</p>
+                </details>
+            </div>
             <div className="footer-icons">
                 <div className="social">
                     <a href="#"><img src={face} alt="" /></a>

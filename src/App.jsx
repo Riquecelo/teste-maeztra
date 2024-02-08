@@ -8,12 +8,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import Fullbanner from './components/fullBanner/FullBanner';
-import MiniTitulo from './components/miniTitulo/MiniTitulo';
-import TipBar from './components/tipBar/TipBar';
-import Titulo from './components/titulo/Titulo';
-import Marcas from './components/marcas/Marcas';
-import Vitrine from './components/vitrine/Vitrine';
-import Banner from './components/banner/Banner';
+import Section from './components/section/Section';
 import Newsletter from './components/newsletter/Newsletter';
 import Footer from './components/footer/Footer';
 
@@ -23,13 +18,7 @@ function App() {
     <>
       <Header/>
       <Fullbanner/>
-      <MiniTitulo texto="Por que comprar na Maeztra?"/>
-      <TipBar/>
-      <Titulo texto="Marcas Parceiras"/>
-      <Marcas/>
-      <Titulo texto="As Mais Pedidas"/>
-      <Vitrine/>
-      <Banner />
+      <Section/>
       <Newsletter/>
       <Footer/>
     </>

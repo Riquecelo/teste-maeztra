@@ -13,6 +13,7 @@ footer{
     gap: 290px;
 }
 
+details p,
 .footer-list ul li{
     list-style: none;
     font-size: 12px;
@@ -21,6 +22,8 @@ footer{
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+summary,
 .footer-list ul li:first-child {
     font-size: 16px;
     font-weight: 700;
@@ -56,4 +59,54 @@ footer{
     line-height: 13.62px;
     color: #fff;
     margin-bottom: 5px;
+}
+
+.footer-mobi{
+    display: none;
+    padding: 0 7%;
+    margin-bottom: 15px;
+}
+details{
+    margin-bottom: 20px;
+}
+summary{
+    list-style-type: none;
+}
+summary::after{
+    content: '+';
+    margin-left: 80%;
+}
+details[open] summary::after{
+    content: '-';
+}
+
+@media (max-width:1024px){
+    .footer-list{
+        /* display: flex;
+        justify-content: center; */
+        gap: 0;
+        justify-content: space-around;
+    }
+}
+@media (max-width:768px){
+    footer{
+        height: auto;
+    }
+    .footer-list{
+        display: none;
+    }
+    .footer-mobi{
+        display: block;
+    }
+}
+
+@media (max-width:425px){
+    .footer-icons{
+        height: auto;
+        padding: 10px 0;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20PX 0;
+        gap: 20PX;
+    }
 }

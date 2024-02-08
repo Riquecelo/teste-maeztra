@@ -1,23 +1,24 @@
+.tipbar .slick-list {
+    height: 64px;
+}
+
 .tipbar{
     width: 100%;
     height: 64px;
-    padding: 0 6%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:15px;
+    
 }
 
 .box-tipbar{
-    display: flex;
-    justify-content: space-evenly;
+    display: flex!important;
     align-items: center;
-    flex-basis: 310px;
-    gap: 10px;
-    /* width: 350px; */
-    height: 100%;
+    justify-content: space-evenly;
+    width: 300px!important;
+    height: 64px;
     background-color: #efefef;
-    padding: 0 15px;
+    margin: 0 10px;
 }
 
 .box-tipbar img{
@@ -39,21 +40,18 @@
     line-height: 21.29px;
 }
 
-@media (max-width:1230px){
-    .tipbar{
-        width: 100%;
-        display: inline-flex;
-        overflow-x: auto;
-        white-space: nowrap; 
-        scrollbar-width: thin;
-        padding: 0;
-        padding-left: 100px;
-    }
-    .tipbar::-webkit-scrollbar-thumb{
-        background-color: #efefef;
-    }
+@media (max-width:1730px){
     .box-tipbar{
-        width: 300px;
+        width: 280px!important;
     }
-    
-}  
+} 
+@media (max-width:1630px){
+    .box-tipbar{
+        width: 240px!important;
+    }
+} 
+@media (max-width:425px){
+    .box-tipbar{
+        width: 308px!important;
+    }
+}
