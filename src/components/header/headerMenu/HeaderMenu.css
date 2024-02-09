@@ -34,3 +34,17 @@
     line-height: 21px;
     color: #353535;
 }
+
+@media (max-width:1024px){
+    .menu-desk ul{
+        padding: 0 10px;
+        margin: 0;
+        gap: 2%;
+    }
+}
+
+@media (max-width:768px){
+    .menu-desk{
+        display: none;
+    }
+}

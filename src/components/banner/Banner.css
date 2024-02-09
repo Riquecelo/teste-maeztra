@@ -52,6 +52,9 @@
 }
 
 @media (max-width:768px){
+    .banner-container{
+        margin-top: 0;
+    }
     .box-banner{
         flex-direction: column;
     }

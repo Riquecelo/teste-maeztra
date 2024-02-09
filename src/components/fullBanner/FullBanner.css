@@ -89,3 +89,18 @@ div.swiper-button-next::after{
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
     background-color: #faa500;
 }
+
+@media (max-width:425px){
+    .img-item{
+        object-fit: fill;
+    }
+    div.swiper-button-prev{
+        left: var(--swiper-navigation-sides-offset, 30px);
+    }
+    div.swiper-button-next{
+        right: var(--swiper-navigation-sides-offset, 30px);
+    } 
+    .subhead{
+        width: 80%;
+    }
+}
