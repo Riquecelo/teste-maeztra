@@ -1,7 +1,9 @@
 import React from 'react';
 import Modal from 'react-modal';
 import './ModalComponent.css';
-
+import img from '../../assets/img/banners/bg-newsletter.jpg';
+import icoEnv from '../../assets/img/icones/icon-envelope.png';
+import icoAviao from '../../assets/img/icones/icon-aviao.png';
 
 const customStyles = {
     overlay: {
@@ -9,8 +11,8 @@ const customStyles = {
       zIndex: 1000, // Defina o zIndex do overlay
     },
     content: {
-        width: '50%',
-        height: '50%',
+        width: '851px',
+        height: '558px',
         top: '50%',
         left: '50%',
         transform: 'translate(-50%,-50%)',
@@ -22,6 +24,8 @@ const customStyles = {
         zIndex: 1001, // Defina o zIndex do conteúdo do modal
         display: 'flex',
         alignItems:'center',
+        flexDirection:'column',
+        background:'transparent',
     },
 };
 
@@ -33,9 +37,20 @@ const ModalComponent = ({ isOpen, onClose }) => {
         contentLabel="Modal"
         style={customStyles}
         >
-        <div >
-        <h2>Este é um modal com botão de fechar!</h2>
-        <button onClick={onClose}>Fechar Modal</button>
+        <button onClick={onClose} className='fechar'>Fechar</button>
+        <div className='box-modal'>
+            <img src={img} alt="" className='image-bg' />
+
+            <form className='form-modal'>
+                <img src={icoEnv} alt="" />
+                <h4>Bem vindo à Maeztra</h4>
+                <h3>Receba em Primeira mão 
+                    <br /> 
+                    <strong>descontos e ofertas exclusivas</strong>
+                </h3>
+                <input type="email" name="" id="" placeholder='Digite seu e-mail' />
+                <button>Enviar <img src={icoAviao} alt="" /></button>
+            </form>
         </div>
         
         </Modal>
