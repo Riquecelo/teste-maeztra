@@ -39,7 +39,11 @@
     font-size: 14px;
     line-height: 21.29px;
 }
-
+@media (min-width:2000px){
+    .box-tipbar{
+        width: 380px!important;
+    }
+}
 @media (max-width:1730px){
     .box-tipbar{
         width: 280px!important;

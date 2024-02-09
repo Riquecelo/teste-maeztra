@@ -3,6 +3,7 @@ import './Header.css'
 import MiniBar from './miniBar/MiniBar';
 import HeaderMain from './headerMain/HeaderMain';
 import HeaderMenu from './headerMenu/HeaderMenu';
+import MenuMobi from './menuMobi/MenuMobi';
 
 
 function Header(){
@@ -11,6 +12,7 @@ function Header(){
             <MiniBar/>
             <HeaderMain/>
             <HeaderMenu/>
+            <MenuMobi/>
         </>
     )
 }

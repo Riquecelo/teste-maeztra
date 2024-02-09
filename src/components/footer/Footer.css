@@ -109,4 +109,7 @@ details[open] summary::after{
         padding: 20PX 0;
         gap: 20PX;
     }
+    summary::after{
+        margin-left: 70%;
+    }
 }
